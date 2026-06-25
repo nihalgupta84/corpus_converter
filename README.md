@@ -439,8 +439,8 @@ bash scripts/05_run_all.sh \
   --rename-mode title
 ```
 
-After completion, use this folder in your RAG, paper review, or research assistant pipeline:
+After completion, use this folder in paper review:
 
 ```text
-/workspace/projects/my_project/corpus/extracted
+/my_project/corpus/extracted
 ```
