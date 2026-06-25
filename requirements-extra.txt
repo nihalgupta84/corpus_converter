@@ -1,0 +1,4 @@
+pymupdf
+pypdf
+tqdm
+rich

@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+*.conda
+*.egg-info/
+
+# Logs and runtime output
+logs/
+*.log
+nohup.out
+*.pid
+
+# Local corpus outputs
+raw_pdfs/
+downloaded/
+mineru_raw/
+mineru_batch_raw/
+extracted/
+manifests/
+tmp/
+tmp_one_pdf/
+filelists/
+outputs/
+workspaces/
+
+# Large research artifacts
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.tiff
+*.bmp
+*.jsonl
+
+# Keep project docs/scripts
+!README.md
+!.gitignore
+!environment.yml
+!requirements-extra.txt
+!scripts/
+!examples/
+!scripts/*.py
+!scripts/*.sh
+!examples/*.sh
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
